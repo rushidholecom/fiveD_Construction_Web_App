@@ -209,7 +209,7 @@ footer a {
 			<h1>
 				Revitalize your<br />historic structure
 			</h1>
-			<a href="singup" class="btn">Book an appoinment</a>
+			<a href="signup" class="btn">Book an appointment</a>
 		</div>
 	</header>
 
