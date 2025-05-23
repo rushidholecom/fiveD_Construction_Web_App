@@ -1,4 +1,4 @@
-package com.fiveD_construction.fiveD_Construction_Web_App.controller;
+package com.fiveD_construction.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

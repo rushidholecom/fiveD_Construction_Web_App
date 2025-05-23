@@ -1,4 +1,4 @@
-package com.fiveD_construction.fiveD_Construction_Web_App;
+package com.fiveD_construction;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -105,8 +105,7 @@ body {
 				<img src="https://image.ibb.co/n7oTvU/logo_white.png" alt="" />
 				<h2>${msg}</h2>
 				<h1>Welcome</h1>
-				<h3>You are 30 seconds away to book an Appoinment for your dream
-					House!</h3>
+				<h3>You are 30 seconds away to book an Appointment for your dream House!</h3>
 
 			</div>
 			<div class="col-md-8 register-right">
@@ -114,8 +113,9 @@ body {
 					role="tablist">
 					<li class="nav-item"><a class="nav-link active"
 						id="employee-tab" data-toggle="tab" href="#employee" role="tab"
-						aria-controls="employee" aria-selected="true"><h3>Register
-								for an Appoinment</h3> </a></li>
+						aria-controls="employee" aria-selected="true">
+					<h3>${msg}</h3>
+						<h3>Register for an Appointment</h3> </a></li>
 
 				</ul>
 				<form action="book" method="post">
