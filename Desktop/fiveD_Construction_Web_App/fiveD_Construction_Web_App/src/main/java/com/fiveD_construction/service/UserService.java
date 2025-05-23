@@ -18,4 +18,13 @@ public class UserService {
 		
 		return status;
 	}
+	
+	public boolean userLogin(String email, String password) {
+		
+		boolean login = userDao.userLogin(email, password);
+		return login;
+		
+		
+		
+	}
 }

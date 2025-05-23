@@ -15,4 +15,9 @@ public class PageController {
 	public String singupPage() {
 		return "signup";
 	}
+	
+	@RequestMapping("login")
+	public String loginPage() {
+		return "login";
+	}
 }
