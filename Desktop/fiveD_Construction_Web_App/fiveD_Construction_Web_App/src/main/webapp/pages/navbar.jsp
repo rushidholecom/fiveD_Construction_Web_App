@@ -5,7 +5,7 @@
 <head>
 
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>navbar</title>
 
 <style type="text/css">/* Navbar Styles */
 .navbar {
@@ -55,10 +55,10 @@
   <div class="logo">5D Construction</div>
   <ul class="nav-links">
   <li><a href="login">login</a></li>
-    <li><a href="index">Home</a></li>
-    <li><a href="index">About Us</a></li>
-    <li><a href="index">Services</a></li>
-    <li><a href="index">Projects</a></li>
+    <li><a href="home">Home</a></li>
+    <li><a href="home">About Us</a></li>
+    <li><a href="home">Services</a></li>
+    <li><a href="home">Projects</a></li>
     <li><a href="adminLogin">Admin Login</a></li>
   </ul>
 </nav>

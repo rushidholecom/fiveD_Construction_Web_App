@@ -53,4 +53,39 @@ public class UserDao {
 			return true;
 		}
 	}
+	
+	
+	
+	public boolean adminLogin(String email, String password) {
+		
+		Session session = sessionFactory.openSession();
+		Criteria criteria = session.createCriteria(User.class);
+		SimpleExpression uname = Restrictions.eq("email", email);
+		SimpleExpression pass = Restrictions.eq("password", password);
+		
+		criteria.add(Restrictions.and(uname,pass));
+		
+		List<User> list = criteria.list();
+		
+		if(list.isEmpty()) {
+			
+			return false;
+		}else {
+			return true;
+		}
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
 }

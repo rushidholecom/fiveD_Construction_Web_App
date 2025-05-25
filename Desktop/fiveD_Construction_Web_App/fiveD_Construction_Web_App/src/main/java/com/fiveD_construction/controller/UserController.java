@@ -47,5 +47,22 @@ public class UserController {
 		
 	}
 	
+	@GetMapping("/adminDashB")
+	public String adminLogin(@RequestParam String email, @RequestParam String password, Model model ) {
+		
+		boolean adminLogin = userService.adminLogin(email, password);
+		
+		if(adminLogin) {
+			model.addAttribute("msg", "Login Successful");
+			return "adminDashBoard";
+		}else {
+			model.addAttribute("msg", "Something Went Wrong");
+			return "adminLogin";
+		}
+		
+		
+	}
+	
+	
 	
 }

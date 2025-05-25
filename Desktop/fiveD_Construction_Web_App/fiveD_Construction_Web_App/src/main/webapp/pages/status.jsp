@@ -99,7 +99,7 @@
 
   <!-- Top Navigation -->
   <div class="top-nav">
-    <a href="index">home</a>
+    <a href="home">home</a>
   </div>
 
   <!-- Main Content -->

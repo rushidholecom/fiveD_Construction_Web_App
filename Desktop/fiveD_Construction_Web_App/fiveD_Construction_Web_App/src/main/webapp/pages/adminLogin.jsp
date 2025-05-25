@@ -152,16 +152,17 @@ body {
 				5D Construction <i class="fas fa-chart-line"></i>
 			</div>
 			<div class="nav-links">
-				<a href="home">Home</a> <a href="home">About Us</a> <a
-					href="home">Help</a>
+				<a href="index">Home</a> <a href="index">About Us</a> <a
+					href="index">Help</a>
 			</div>
 		</div>
 
 		<!-- Login Box -->
 		<div class="login-box">
-		<h3>${msg}</h3>
+		
+			<h2>${msg}</h2>		
 			<h2>LOGIN TO YOUR ACCOUNT</h2>
-			<form action="bookStatus" method="get">
+			<form action="adminDashB" method="get">
 				<label for="email">Email :</label>
 				 <input type="text" id="email"	placeholder="     Email" name="email" required /> 
 				 <label	for="password">Password :</label> 

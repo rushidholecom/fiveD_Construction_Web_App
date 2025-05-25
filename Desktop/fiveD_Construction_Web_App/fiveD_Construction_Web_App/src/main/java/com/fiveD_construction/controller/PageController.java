@@ -20,4 +20,14 @@ public class PageController {
 	public String loginPage() {
 		return "login";
 	}
+	
+	@RequestMapping("home")
+	public String homepage() {
+		return "home";
+	}
+	
+	@RequestMapping("/adminLogin")
+	public String adminLogin() {
+		return "adminLogin";
+	}
 }

@@ -23,8 +23,14 @@ public class UserService {
 		
 		boolean login = userDao.userLogin(email, password);
 		return login;
+			
 		
+	}
+	
+	public boolean adminLogin(String email, String password) {
 		
+		boolean adminlogin = userDao.adminLogin(email, password);
 		
+		return adminlogin;
 	}
 }
