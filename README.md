@@ -35,3 +35,24 @@ This project aims to provide a user-friendly interface for clients and administr
 ---
 
 ## 📥 Project Structure
+fiveD_Construction_Web_App/
+├── src/
+│ ├── main/java/... # Backend Java code
+│ ├── main/resources/... # Application properties, templates
+├── public/ # Frontend static assets (HTML, CSS, JS)
+├── .gitignore
+├── pom.xml / build.gradle # Dependency config
+└── README.md
+
+## 👤 Author
+
+<img src="assets/author.jpg" alt="Rushid Dhole" width="150" style="border-radius:50%"/>
+
+**Rushid Dhole**  
+Java Backend Developer | Spring Boot | DevOps  
+📍 India  
+
+- GitHub: https://github.com/rushidholecom  
+- LinkedIn: https://www.linkedin.com/in/your-linkedin-id  
+- Email: yourmail@gmail.com
+
